@@ -1,95 +1,375 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GreenDrive - แนะนำรถไฟฟ้า EV พลังงานสะอาด</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EV Green Drive | รถยนต์ไฟฟ้าพลังงานสะอาด</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- Header / Navbar -->
-    <header>
-        <div class="logo">🌱 GreenDrive EV</div>
-        <nav>
-            <ul>
-                <li><a href="#home">หน้าแรก</a></li>
-                <li><a href="#benefits">ข้อดี EV</a></li>
-                <li><a href="#cars">รถยนต์แนะนำ</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav class="navbar">
+      <div class="logo">⚡ EV <span>Green Drive</span></div>
 
-    <!-- Hero Section -->
+      <ul class="nav-links">
+        <li><a href="#home">หน้าแรก</a></li>
+        <li><a href="#benefits">ข้อดี</a></li>
+        <li><a href="#models">รุ่นแนะนำ</a></li>
+        <li><a href="#future">อนาคต</a></li>
+      </ul>
+
+      <a href="#models" class="nav-btn">ดูรถ EV</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
     <section id="home" class="hero">
-        <h1>ขับเคลื่อนสู่อนาคตด้วย พลังงานสะอาด</h1>
-        <p>รวมข้อมูลรถยนต์ไฟฟ้า (EV) เพื่อโลกที่สะอาดและน่าอยู่ยิ่งขึ้น</p>
-        <a href="#cars" class="btn">ดูรถยนต์แนะนำ</a>
-    </section>
+      <div class="hero-content">
+        <p class="tag">🌱 CLEAN ENERGY • SMART MOBILITY</p>
 
-    <!-- Benefits Section -->
-    <section id="benefits" class="benefits">
-        <h2>ทำไมต้องเลือกใช้ รถยนต์ไฟฟ้า?</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>🍃 ปล่อยมลพิษเป็น 0</h3>
-                <p>ไม่มีควันพิษจากท่อไอเสีย ช่วยลดภาวะโลกร้อนและฝุ่น PM 2.5</p>
-            </div>
-            <div class="card">
-                <h3>💰 ประหยัดค่าบริการ</h3>
-                <p>ค่าชาร์จไฟถูกกว่าค่าน้ำมันหลายเท่า และมีค่าบำรุงรักษาต่ำกว่า</p>
-            </div>
-            <div class="card">
-                <h3>⚡ สมรรถนะเยี่ยม</h3>
-                <p>อัตราเร่งทันใจ เงียบ ไร้เสียงรบกวนในขณะขับขี่</p>
-            </div>
+        <h1>
+          ขับเคลื่อนอนาคต<br>
+          ด้วยพลังงานสะอาด
+        </h1>
+
+        <p class="hero-text">
+          รถยนต์ไฟฟ้า หรือ EV คืออีกหนึ่งทางเลือกของการเดินทางยุคใหม่
+          ที่ช่วยลดการใช้น้ำมัน ลดมลพิษจากไอเสีย และมุ่งสู่โลกที่ยั่งยืนกว่าเดิม
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#models" class="btn primary">สำรวจรถ EV</a>
+          <a href="#benefits" class="btn secondary">ทำไมต้อง EV?</a>
         </div>
-    </section>
+      </div>
 
-    <!-- EV Cars Section -->
-    <section id="cars" class="cars">
-        <h2>เลือกรถ EV ที่ใช่สำหรับคุณ</h2>
-        <div class="grid">
-            
-            <!-- Card 1 -->
-            <div class="car-card">
-                <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?w=500" alt="EV Car">
-                <div class="car-info">
-                    <h3>Tesla Model 3</h3>
-                    <p class="specs">ระยะทาง: 574 กม. / การชาร์จ</p>
-                    <p>รถยนต์ไฟฟ้ายอดนิยม พร้อมระบบขับขี่อัจฉริยะ อัตราเร่งสุดแรง</p>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="car-card">
-                <img src="https://images.unsplash.com/photo-1536700503339-1e4b06520771?w=500" alt="BYD Atto 3">
-                <div class="car-info">
-                    <h3>BYD Atto 3</h3>
-                    <p class="specs">ระยะทาง: 480 กม. / การชาร์จ</p>
-                    <p>SUV ไฟฟ้าไซส์ SUV กะทัดรัด ดีไซน์ทันสมัย โดดเด่นเรื่องแบตเตอรี่ Blade Battery</p>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="car-card">
-                <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399?w=500" alt="Porsche Taycan">
-                <div class="car-info">
-                    <h3>Porsche Taycan</h3>
-                    <p class="specs">ระยะทาง: 505 กม. / การชาร์จ</p>
-                    <p>สปอร์ต EV หรูหราสายพันธุ์เยอรมัน แรงม้าสูง ชาร์จไวทันใจ</p>
-                </div>
-            </div>
-
+      <div class="car-card">
+        <div class="glow"></div>
+        <div class="car-icon">🚗</div>
+        <div class="battery">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+        <p>100% Electric</p>
+        <small>พลังงานไฟฟ้า • ไม่มีไอเสียจากท่อไอเสีย</small>
+      </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 GreenDrive EV - ขับเคลื่อนอนาคตด้วยพลังงานสะอาด</p>
-    </footer>
+    <!-- Stats -->
+    <section class="stats">
+      <div>
+        <strong>0</strong>
+        <span>ไอเสียจากท่อไอเสีย</span>
+      </div>
 
-    <script src="script.js"></script>
+      <div>
+        <strong>⚡</strong>
+        <span>ขับเคลื่อนด้วยมอเตอร์ไฟฟ้า</span>
+      </div>
+
+      <div>
+        <strong>🔋</strong>
+        <span>ชาร์จพลังงานกลับมาใช้ใหม่</span>
+      </div>
+
+      <div>
+        <strong>🌱</strong>
+        <span>มุ่งสู่การเดินทางที่ยั่งยืน</span>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section id="benefits" class="section">
+      <div class="section-title">
+        <p>WHY EV?</p>
+        <h2>ทำไมรถยนต์ไฟฟ้าถึงน่าสนใจ?</h2>
+        <span>
+          EV ไม่ได้เป็นเพียงรถยนต์รูปแบบใหม่
+          แต่เป็นส่วนหนึ่งของการเปลี่ยนแปลงระบบการเดินทางในอนาคต
+        </span>
+      </div>
+
+      <div class="benefit-grid">
+
+        <article class="benefit-card">
+          <div class="icon">🌿</div>
+          <h3>ลดมลพิษจากไอเสีย</h3>
+          <p>
+            รถยนต์ไฟฟ้าแบบแบตเตอรี่ไม่มีการปล่อยไอเสียจากท่อไอเสีย
+            ขณะขับขี่ จึงช่วยลดมลพิษในบริเวณที่ใช้งาน
+          </p>
+        </article>
+
+        <article class="benefit-card">
+          <div class="icon">⚡</div>
+          <h3>ขับขี่เงียบและตอบสนองเร็ว</h3>
+          <p>
+            มอเตอร์ไฟฟ้าสามารถส่งแรงบิดได้อย่างรวดเร็ว
+            พร้อมประสบการณ์การขับขี่ที่เงียบกว่าเครื่องยนต์สันดาป
+          </p>
+        </article>
+
+        <article class="benefit-card">
+          <div class="icon">💰</div>
+          <h3>ลดค่าใช้จ่ายบางส่วน</h3>
+          <p>
+            การชาร์จไฟและการบำรุงรักษาอาจมีค่าใช้จ่ายต่ำกว่า
+            รถเครื่องยนต์ในบางลักษณะการใช้งาน
+          </p>
+        </article>
+
+        <article class="benefit-card">
+          <div class="icon">☀️</div>
+          <h3>เชื่อมต่อพลังงานหมุนเวียน</h3>
+          <p>
+            ไฟฟ้าสำหรับชาร์จสามารถมาจากแหล่งพลังงานหมุนเวียน
+            เช่น พลังงานแสงอาทิตย์ ซึ่งช่วยสนับสนุนระบบพลังงานสะอาด
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- How EV works -->
+    <section class="how-section">
+      <div class="section-title">
+        <p>HOW IT WORKS</p>
+        <h2>EV ทำงานอย่างไร?</h2>
+      </div>
+
+      <div class="steps">
+
+        <div class="step">
+          <div class="step-number">01</div>
+          <h3>🔌 ชาร์จไฟ</h3>
+          <p>รับพลังงานไฟฟ้าจากสถานีชาร์จหรือที่ชาร์จภายในบ้าน</p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">02</div>
+          <h3>🔋 เก็บพลังงาน</h3>
+          <p>แบตเตอรี่แรงดันสูงเก็บพลังงานไว้สำหรับการขับเคลื่อน</p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">03</div>
+          <h3>⚙️ มอเตอร์ทำงาน</h3>
+          <p>พลังงานจากแบตเตอรี่ถูกส่งไปยังมอเตอร์ไฟฟ้า</p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">04</div>
+          <h3>🚘 ออกเดินทาง</h3>
+          <p>มอเตอร์เปลี่ยนพลังงานไฟฟ้าเป็นแรงขับเคลื่อน</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Models -->
+    <section id="models" class="section">
+      <div class="section-title">
+        <p>EV GUIDE</p>
+        <h2>ตัวอย่างรถยนต์ไฟฟ้าที่น่าสนใจ</h2>
+        <span>ตัวอย่างรุ่นยอดนิยมสำหรับใช้เป็นข้อมูลประกอบการศึกษา</span>
+      </div>
+
+      <div class="car-grid">
+
+        <article class="model-card">
+          <div class="model-image blue">⚡🚙</div>
+          <div class="model-content">
+            <span class="category">CITY EV</span>
+            <h3>รถ EV สำหรับเมือง</h3>
+            <p>
+              ขนาดกะทัดรัด คล่องตัว เหมาะสำหรับการเดินทางในเมือง
+              และการใช้งานในชีวิตประจำวัน
+            </p>
+            <button onclick="showInfo('city')">ดูข้อมูล</button>
+          </div>
+        </article>
+
+        <article class="model-card">
+          <div class="model-image green">🔋🚗</div>
+          <div class="model-content">
+            <span class="category">FAMILY EV</span>
+            <h3>รถ EV สำหรับครอบครัว</h3>
+            <p>
+              เน้นพื้นที่ใช้สอย ความสะดวกสบาย และระยะทางที่เหมาะกับ
+              การเดินทางหลากหลายรูปแบบ
+            </p>
+            <button onclick="showInfo('family')">ดูข้อมูล</button>
+          </div>
+        </article>
+
+        <article class="model-card">
+          <div class="model-image purple">⚡🏎️</div>
+          <div class="model-content">
+            <span class="category">PERFORMANCE EV</span>
+            <h3>รถ EV สมรรถนะสูง</h3>
+            <p>
+              ผสานระบบขับเคลื่อนไฟฟ้ากับสมรรถนะและเทคโนโลยี
+              เพื่อประสบการณ์การขับขี่ที่เร้าใจ
+            </p>
+            <button onclick="showInfo('performance')">ดูข้อมูล</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Future -->
+    <section id="future" class="future">
+      <div>
+        <p class="tag">THE FUTURE IS ELECTRIC</p>
+        <h2>อนาคตของการเดินทาง<br>กำลังเปลี่ยนไป</h2>
+
+        <p>
+          การเปลี่ยนจากรถยนต์เครื่องยนต์สันดาปไปสู่รถยนต์ไฟฟ้า
+          เป็นหนึ่งในแนวทางสำคัญของการพัฒนาระบบขนส่งที่สะอาดขึ้น
+          พร้อมกับการพัฒนาแบตเตอรี่ โครงสร้างพื้นฐานการชาร์จ
+          และพลังงานหมุนเวียน
+        </p>
+
+        <a href="#home" class="btn primary">กลับขึ้นด้านบน ↑</a>
+      </div>
+
+      <div class="earth">
+        🌍
+        <span>GREEN<br>FUTURE</span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="logo">⚡ EV Green Drive</div>
+    <p>เว็บไซต์ให้ความรู้เกี่ยวกับรถยนต์ไฟฟ้าและพลังงานสะอาด</p>
+    <p class="copyright">© 2026 EV Green Drive</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background-color: #f4f9f4;
+    color: #333;
+}
+
+header {
+    background: #2e7d32;
+    color: white;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=1200') center/cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+.hero p { font-size: 1.2rem; margin-bottom: 20px; }
+
+.btn {
+    background: #4caf50;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn:hover { background: #388e3c; }
+
+section { padding: 50px 5%; text-align: center; }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.car-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.car-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.car-info { padding: 20px; }
+.car-info h3 { margin-bottom: 5px; }
+.specs { color: #2e7d32; font-weight: 600; font-size: 0.9rem; margin-bottom: 10px; }
+
+footer {
+    background: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+// เพิ่ม Smooth Scroll เมื่อคลิกเมนู
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
